@@ -13,7 +13,7 @@
     </div>
     <!-- element-plus -->
     <gm-table style="width: 100%" :data="tableData">
-      <gm-table-column a prop="date" label="Date" width="180" />
+      <gm-table-column a b prop="date" label="Date" width="180" />
       <gm-table-column prop="name" label="Name" width="180" />
 
       <gm-table-column prop="address" label="Address" />
@@ -39,8 +39,8 @@
 import dayjs from 'dayjs';
 import { CirclePlus } from '@element-plus/icons-vue';
 import { routes } from '@/router';
+
 const appBuildTime = dayjs(__APP_BUILD_TIME__).format('YYYY-MM-DD HH:mm:ss');
-1 === 1;
 const tableData = [
   {
     date: '2016-05-03',
