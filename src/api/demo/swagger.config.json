@@ -3,5 +3,5 @@
   "includeTags": [],
   "excludeTags": [],
   "axiosInstanceUrl": "@/api/demo/request",
-  "vueUseAxios": true
+  "vueUseAxios": "giime"
 }
