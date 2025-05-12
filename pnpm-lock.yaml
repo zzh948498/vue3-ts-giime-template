@@ -30,8 +30,8 @@ importers:
         specifier: 2.9.9
         version: 2.9.9(vue@3.5.13(typescript@5.8.3))
       giime:
-        specifier: ^0.6.20
-        version: 0.6.20(echarts@5.6.0)(element-plus@2.9.9(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3))
+        specifier: ^0.6.22
+        version: 0.6.22(echarts@5.6.0)(element-plus@2.9.9(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3))
       js-cookie:
         specifier: ^3.0.5
         version: 3.0.5
@@ -2312,8 +2312,8 @@ packages:
     resolution: {integrity: sha512-Ln0UQDlxH1BapMu3GPtf7CuYNwRZf2gwCuPqbyG6pB8WfmFpzqcy4xtAaAMUhnNqjMKTiCPZG2oMT3YSx8U2NA==}
     engines: {node: '>=0.10.0'}
 
-  giime@0.6.20:
-    resolution: {integrity: sha512-tG22BmacjM2TDMIfOyVvcxgP1TXlLs+AYAZ0Ig5mOI8t5gAWPVCT7a4ZNFr10RiSRG7aYAMQSJTZjsfmukE3Ug==}
+  giime@0.6.22:
+    resolution: {integrity: sha512-vB8P4BLmfYooWZFlX3Em4Nvpy3Nlv9h0WOMGrV4J4smC0KljGGjK9s6/4JKBSdNz+B8/y2Y2vs7KBLPnJ2z0zw==}
     peerDependencies:
       echarts: ^5.5.1
       element-plus: ^2.6.1
@@ -7158,7 +7158,7 @@ snapshots:
 
   get-value@2.0.6: {}
 
-  giime@0.6.20(echarts@5.6.0)(element-plus@2.9.9(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3)):
+  giime@0.6.22(echarts@5.6.0)(element-plus@2.9.9(vue@3.5.13(typescript@5.8.3)))(vue@3.5.13(typescript@5.8.3)):
     dependencies:
       '@types/file-saver': 2.0.7
       '@types/lodash': 4.17.16
