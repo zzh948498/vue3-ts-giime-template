@@ -11,7 +11,7 @@
     "build:release": "vite build --mode release",
     "preview": "vite preview",
     "build-check": "run-p type-check build-only",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json",
+    "type-check": "vue-tsc --build",
     "build-only": "vite build",
     "font": "zerone font_grabber -p ./src/assets/iconfont",
     "api": "zerone api -d -p ./src/api/demo",
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@commitlint/cli": "^21.0.0",
     "@commitlint/config-conventional": "^21.0.0",
-    "@tsconfig/node22": "^22.0.5",
+    "@tsconfig/node24": "^24.0.4",
     "@types/js-cookie": "^3.0.6",
     "@types/jsdom": "^28.0.1",
     "@types/node": "^25.6.2",
